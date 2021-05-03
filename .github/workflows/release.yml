@@ -1,0 +1,23 @@
+name: Release
+on:
+  push:
+    branches:
+      - main
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '14'
+      - name: Install Semantic Release
+        run: npm i semantic-release @semantic-release/exec
+      - name: Semantic Release
+        id: semantic-release
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: npx --no-install semantic-release
+      - name: Do Further More Steps with Step Outputs
+        run: echo ${{steps.semantic-release.outputs.RELEASE_VERSION}}

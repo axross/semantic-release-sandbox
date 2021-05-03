@@ -1,0 +1,16 @@
+{
+  "name": "semantic-release-test",
+  "version": "0.0.0",
+  "private": true,
+  "description": "",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axross/semantic-release-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/axross/semantic-release-test/issues"
+  },
+  "homepage": "https://github.com/axross/semantic-release-test#readme"
+}
