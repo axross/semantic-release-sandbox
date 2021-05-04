@@ -1,5 +1,5 @@
 {
-  "name": "semantic-release-test",
+  "name": "semantic-release-sandbox",
   "version": "0.0.0",
   "private": true,
   "description": "",
@@ -7,10 +7,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/axross/semantic-release-test.git"
+    "url": "git+https://github.com/axross/semantic-release-sandbox.git"
   },
   "bugs": {
-    "url": "https://github.com/axross/semantic-release-test/issues"
+    "url": "https://github.com/axross/semantic-release-sandbox/issues"
   },
-  "homepage": "https://github.com/axross/semantic-release-test#readme"
+  "homepage": "https://github.com/axross/semantic-release-sandbox#readme"
 }
